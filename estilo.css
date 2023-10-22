@@ -1,14 +1,14 @@
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* definindo rolagem suave, funciona na maioria dos navegadores */
 }
 * {
   box-sizing: border-box;
 }
-body {
+body {/* zerando o margin do body e fonte padrão */
   margin: 0px;
   font-family: 'Segoe UI';
 }
-.nav {
+.nav {/* configurações da barra de navegação para computador */
   width: 100%;
   background-color: #1A237E;
   display: flex;
@@ -39,7 +39,7 @@ body {
 .nav > #nav-check {
     display: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 480px) {/* definindo configurações da barra de navegação para mobile */
   .nav {
     padding: 1rem;
   }
@@ -65,13 +65,13 @@ body {
   }
 }
 
-body{
+body{/* definindo cor de fundo */
   background-color: antiquewhite;
 }
-main{
+main{ /* margin padrão */
   margin: 15px;
 }
-section{
+section{ /* definindo design para cartões das sessões */
   padding: 5px;
   padding-right: 20px;
   padding-left: 20px;
