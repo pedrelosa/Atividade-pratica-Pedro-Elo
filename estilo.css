@@ -97,3 +97,9 @@ section{ /* definindo design para cartões das sessões */
   background-color: aquamarine;
   border-radius: 2em;
 }
+
+span{
+  font-style: oblique;
+  position: relative;
+  margin-right: 10px;
+}
